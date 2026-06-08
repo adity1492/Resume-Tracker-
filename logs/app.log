@@ -1,0 +1,749 @@
+[2026-06-07 14:40:06] INFO [__main__:52] - Starting local PDF flow testing...
+[2026-06-07 14:40:06] INFO [__main__:59] - Extracted 9 layout blocks.
+[2026-06-07 14:40:06] INFO [__main__:61] - Block #0: 'Johnathan Doe...' font: Helvetica-Bold size: 20.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:40:06] INFO [__main__:61] - Block #1: 'Software Architect | Seattle, WA | john.doe@email....' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:40:06] INFO [__main__:61] - Block #2: 'PROFILE SUMMARY...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:40:06] INFO [__main__:61] - Block #3: 'Highly analytical software engineering leader with...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:40:06] INFO [__main__:61] - Block #4: 'WORK EXPERIENCE...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:40:06] INFO [__main__:61] - Block #5: 'Lead Architect - Cloud Systems Co. (2021 - Present...' font: Helvetica-Bold size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:40:06] INFO [__main__:61] - Block #6: '- Spearheaded design of highly scalable database m...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:40:06] INFO [__main__:61] - Block #7: 'EDUCATION...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:40:06] INFO [__main__:61] - Block #8: 'B.S. Computer Science - University of Washington (...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:40:06] INFO [__main__:78] - Simulating replacement on block #3...
+[2026-06-07 14:40:06] ERROR [core.pdf_processor:279] - Error replacing text in PDF: Page.apply_redactions() got an unexpected keyword argument 'drawings'
+Traceback (most recent call last):
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\core\pdf_processor.py", line 211, in replace_text_in_pdf
+    page.apply_redactions(images=0, drawings=0)  # Keep images and vector graphics!
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Page.apply_redactions() got an unexpected keyword argument 'drawings'
+[2026-06-07 14:40:06] INFO [__main__:83] - Updated PDF parsed successfully.
+[2026-06-07 14:41:16] INFO [__main__:52] - Starting local PDF flow testing...
+[2026-06-07 14:41:16] INFO [__main__:59] - Extracted 9 layout blocks.
+[2026-06-07 14:41:16] INFO [__main__:61] - Block #0: 'Johnathan Doe...' font: Helvetica-Bold size: 20.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:41:16] INFO [__main__:61] - Block #1: 'Software Architect | Seattle, WA | john.doe@email....' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:41:16] INFO [__main__:61] - Block #2: 'PROFILE SUMMARY...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:41:16] INFO [__main__:61] - Block #3: 'Highly analytical software engineering leader with...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:41:16] INFO [__main__:61] - Block #4: 'WORK EXPERIENCE...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:41:16] INFO [__main__:61] - Block #5: 'Lead Architect - Cloud Systems Co. (2021 - Present...' font: Helvetica-Bold size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:41:16] INFO [__main__:61] - Block #6: '- Spearheaded design of highly scalable database m...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:41:16] INFO [__main__:61] - Block #7: 'EDUCATION...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:41:16] INFO [__main__:61] - Block #8: 'B.S. Computer Science - University of Washington (...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 14:41:16] INFO [__main__:78] - Simulating replacement on block #3...
+[2026-06-07 14:41:16] INFO [__main__:83] - Updated PDF parsed successfully.
+[2026-06-07 14:41:16] INFO [__main__:87] - PDF replacement validation: SUCCESS.
+[2026-06-07 14:41:16] INFO [__main__:94] - Saved sample_resume.pdf and updated_resume.pdf for review.
+[2026-06-07 14:41:16] INFO [__main__:105] - Generating sample DOCX document...
+[2026-06-07 14:41:16] INFO [core.docx_generator:109] - DOCX document generated: test.docx
+[2026-06-07 14:41:16] INFO [__main__:111] - Saved updated_resume.docx for review.
+[2026-06-07 14:41:16] INFO [__main__:113] - All local verification tests completed successfully!
+[2026-06-07 15:09:44] INFO [__main__:52] - Starting local PDF flow testing...
+[2026-06-07 15:09:44] INFO [__main__:59] - Extracted 9 layout blocks.
+[2026-06-07 15:09:44] INFO [__main__:61] - Block #0: 'Johnathan Doe...' font: Helvetica-Bold size: 20.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:09:44] INFO [__main__:61] - Block #1: 'Software Architect | Seattle, WA | john.doe@email....' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:09:44] INFO [__main__:61] - Block #2: 'PROFILE SUMMARY...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:09:44] INFO [__main__:61] - Block #3: 'Highly analytical software engineering leader with...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:09:44] INFO [__main__:61] - Block #4: 'WORK EXPERIENCE...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:09:44] INFO [__main__:61] - Block #5: 'Lead Architect - Cloud Systems Co. (2021 - Present...' font: Helvetica-Bold size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:09:44] INFO [__main__:61] - Block #6: '- Spearheaded design of highly scalable database m...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:09:44] INFO [__main__:61] - Block #7: 'EDUCATION...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:09:44] INFO [__main__:61] - Block #8: 'B.S. Computer Science - University of Washington (...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:09:44] INFO [__main__:78] - Simulating replacement on block #3...
+[2026-06-07 15:09:44] INFO [__main__:83] - Updated PDF parsed successfully.
+[2026-06-07 15:09:44] INFO [__main__:87] - PDF replacement validation: SUCCESS.
+[2026-06-07 15:09:44] INFO [__main__:94] - Saved sample_resume.pdf and updated_resume.pdf for review.
+[2026-06-07 15:09:44] INFO [__main__:105] - Generating sample DOCX document...
+[2026-06-07 15:09:44] INFO [core.docx_generator:109] - DOCX document generated: test.docx
+[2026-06-07 15:09:44] INFO [__main__:111] - Saved updated_resume.docx for review.
+[2026-06-07 15:09:44] INFO [__main__:113] - All local verification tests completed successfully!
+[2026-06-07 15:37:09] INFO [__main__:52] - Starting local PDF flow testing...
+[2026-06-07 15:37:09] INFO [__main__:59] - Extracted 9 layout blocks.
+[2026-06-07 15:37:09] INFO [__main__:61] - Block #0: 'Johnathan Doe...' font: Helvetica-Bold size: 20.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:37:09] INFO [__main__:61] - Block #1: 'Software Architect | Seattle, WA | john.doe@email....' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:37:09] INFO [__main__:61] - Block #2: 'PROFILE SUMMARY...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:37:09] INFO [__main__:61] - Block #3: 'Highly analytical software engineering leader with...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:37:09] INFO [__main__:61] - Block #4: 'WORK EXPERIENCE...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:37:09] INFO [__main__:61] - Block #5: 'Lead Architect - Cloud Systems Co. (2021 - Present...' font: Helvetica-Bold size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:37:09] INFO [__main__:61] - Block #6: '- Spearheaded design of highly scalable database m...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:37:09] INFO [__main__:61] - Block #7: 'EDUCATION...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:37:09] INFO [__main__:61] - Block #8: 'B.S. Computer Science - University of Washington (...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 15:37:09] INFO [__main__:78] - Simulating replacement on block #3...
+[2026-06-07 15:37:09] INFO [__main__:83] - Updated PDF parsed successfully.
+[2026-06-07 15:37:09] INFO [__main__:87] - PDF replacement validation: SUCCESS.
+[2026-06-07 15:37:09] INFO [__main__:94] - Saved sample_resume.pdf and updated_resume.pdf for review.
+[2026-06-07 15:37:09] INFO [__main__:105] - Generating sample DOCX document...
+[2026-06-07 15:37:09] INFO [core.docx_generator:109] - DOCX document generated: test.docx
+[2026-06-07 15:37:09] INFO [__main__:111] - Saved updated_resume.docx for review.
+[2026-06-07 15:37:09] INFO [__main__:113] - All local verification tests completed successfully!
+[2026-06-07 15:57:39] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 15:58:34] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 15:58:44] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 15:58:48] INFO [database.db_manager:97] - Saved resume Resume_Abhinav (1).pdf with ID: 1
+[2026-06-07 15:58:48] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 15:59:16] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 15:59:26] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 15:59:31] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 15:59:33] INFO [database.db_manager:97] - Saved resume Tech_Slate_Template.pdf with ID: 2
+[2026-06-07 15:59:33] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Tech_Slate_Template.docx
+[2026-06-07 15:59:34] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 15:59:37] INFO [database.db_manager:97] - Saved resume Resume_Abhinav (1).pdf with ID: 3
+[2026-06-07 15:59:37] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 15:59:43] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 15:59:50] INFO [database.db_manager:124] - Saved ATS analysis ID: 1 for resume ID: 3
+[2026-06-07 16:01:06] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:02:20] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:02:22] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 16:02:22] INFO [database.db_manager:151] - Saved version 1 ( managers ) for resume ID: 3
+[2026-06-07 16:02:22] INFO [database.db_manager:109] - Updated current PDF for resume ID: 3
+[2026-06-07 16:02:22] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:03:24] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:03:35] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:03:37] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 16:03:37] INFO [database.db_manager:151] - Saved version 2 (Manual Snapshot) for resume ID: 3
+[2026-06-07 16:03:37] INFO [database.db_manager:109] - Updated current PDF for resume ID: 3
+[2026-06-07 16:03:37] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:05:03] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:21:20] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:22:30] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:22:46] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:22:51] INFO [database.db_manager:97] - Saved resume Resume_Abhinav (1).pdf with ID: 4
+[2026-06-07 16:22:52] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 16:24:12] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:24:18] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:24:22] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:24:25] INFO [database.db_manager:124] - Saved ATS analysis ID: 2 for resume ID: 4
+[2026-06-07 16:26:23] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:26:24] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 16:26:24] INFO [database.db_manager:151] - Saved version 1 (Version Resume_Abhinav (1).pdf) for resume ID: 4
+[2026-06-07 16:26:24] INFO [database.db_manager:109] - Updated current PDF for resume ID: 4
+[2026-06-07 16:26:25] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:26:30] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:26:30] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 16:35:01] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:11:55] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:12:47] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:13:10] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:13:15] INFO [database.db_manager:97] - Saved resume Resume_Abhinav (1).pdf with ID: 5
+[2026-06-07 22:13:17] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 22:13:51] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:14:07] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:14:12] INFO [database.db_manager:124] - Saved ATS analysis ID: 3 for resume ID: 5
+[2026-06-07 22:14:32] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:14:37] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:14:41] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:16:08] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:17:07] INFO [__main__:52] - Starting local PDF flow testing...
+[2026-06-07 22:17:07] INFO [__main__:59] - Extracted 9 layout blocks.
+[2026-06-07 22:17:07] INFO [__main__:61] - Block #0: 'Johnathan Doe...' font: Helvetica-Bold size: 20.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 22:17:07] INFO [__main__:61] - Block #1: 'Software Architect | Seattle, WA | john.doe@email....' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 22:17:07] INFO [__main__:61] - Block #2: 'PROFILE SUMMARY...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 22:17:07] INFO [__main__:61] - Block #3: 'Highly analytical software engineering leader with...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 22:17:07] INFO [__main__:61] - Block #4: 'WORK EXPERIENCE...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 22:17:07] INFO [__main__:61] - Block #5: 'Lead Architect - Cloud Systems Co. (2021 - Present...' font: Helvetica-Bold size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 22:17:07] INFO [__main__:61] - Block #6: '- Spearheaded design of highly scalable database m...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 22:17:07] INFO [__main__:61] - Block #7: 'EDUCATION...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 22:17:07] INFO [__main__:61] - Block #8: 'B.S. Computer Science - University of Washington (...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 22:17:07] INFO [__main__:78] - Simulating replacement on block #3...
+[2026-06-07 22:17:07] INFO [__main__:83] - Updated PDF parsed successfully.
+[2026-06-07 22:17:07] INFO [__main__:87] - PDF replacement validation: SUCCESS.
+[2026-06-07 22:17:07] INFO [__main__:94] - Saved sample_resume.pdf and updated_resume.pdf for review.
+[2026-06-07 22:17:07] INFO [__main__:105] - Generating sample DOCX document...
+[2026-06-07 22:17:07] INFO [core.docx_generator:109] - DOCX document generated: test.docx
+[2026-06-07 22:17:07] INFO [__main__:111] - Saved updated_resume.docx for review.
+[2026-06-07 22:17:07] INFO [__main__:113] - All local verification tests completed successfully!
+[2026-06-07 22:17:58] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:22:18] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:22:21] INFO [database.db_manager:97] - Saved resume Resume_Abhinav (1).pdf with ID: 6
+[2026-06-07 22:22:22] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 22:22:41] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:22:41] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:22:48] INFO [database.db_manager:124] - Saved ATS analysis ID: 4 for resume ID: 6
+[2026-06-07 22:23:27] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:23:37] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:23:58] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:24:41] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:24:49] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:24:59] INFO [database.db_manager:97] - Saved resume Aditya resume.pdf with ID: 7
+[2026-06-07 22:24:59] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Aditya resume.docx
+[2026-06-07 22:25:08] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:25:30] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:25:38] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:25:52] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:26:02] INFO [database.db_manager:97] - Saved resume Aditya resume.pdf with ID: 8
+[2026-06-07 22:26:03] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Aditya resume.docx
+[2026-06-07 22:26:04] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:26:11] INFO [database.db_manager:124] - Saved ATS analysis ID: 5 for resume ID: 8
+[2026-06-07 22:26:41] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:28:35] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:28:49] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:28:53] INFO [database.db_manager:97] - Saved resume Resume_Abhinav (1).pdf with ID: 9
+[2026-06-07 22:28:53] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 22:29:19] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:29:23] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:29:25] INFO [database.db_manager:124] - Saved ATS analysis ID: 6 for resume ID: 9
+[2026-06-07 22:29:58] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:30:02] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:35:40] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:35:50] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:36:02] INFO [database.db_manager:97] - Saved resume Corporate_Classic_Template.pdf with ID: 10
+[2026-06-07 22:36:02] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Corporate_Classic_Template.docx
+[2026-06-07 22:36:02] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:36:05] INFO [database.db_manager:97] - Saved resume Resume_Abhinav (1).pdf with ID: 11
+[2026-06-07 22:36:06] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 22:36:15] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:36:22] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 22:36:22] INFO [database.db_manager:151] - Saved version 1 (AI Optimized Content) for resume ID: 11
+[2026-06-07 22:36:22] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:36:49] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:36:53] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:38:34] ERROR [core.ai_client:315] - Error in Groq resume optimization: Request timed out.
+Traceback (most recent call last):
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    raise exc
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpcore\_sync\connection.py", line 156, in _connect
+    stream = stream.start_tls(**kwargs)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpcore\_backends\sync.py", line 154, in start_tls
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\arapr\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout: _ssl.c:1063: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\groq\_base_client.py", line 1007, in request
+    response = self._client.send(
+        request,
+        stream=stream or self._should_stream_response_body(request=request),
+        **kwargs,
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\arapr\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout: _ssl.c:1063: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\core\ai_client.py", line 301, in optimize_resume_content
+    response = client.chat.completions.create(
+        messages=[
+    ...<5 lines>...
+        temperature=0.3,
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\groq\resources\chat\completions.py", line 461, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/openai/v1/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<45 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\groq\_base_client.py", line 1284, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\groq\_base_client.py", line 1025, in request
+    raise APITimeoutError(request=request) from err
+groq.APITimeoutError: Request timed out.
+[2026-06-07 22:38:38] ERROR [core.ai_client:315] - Error in Groq resume optimization: Request timed out.
+Traceback (most recent call last):
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    raise exc
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpcore\_sync\connection.py", line 156, in _connect
+    stream = stream.start_tls(**kwargs)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpcore\_backends\sync.py", line 154, in start_tls
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\arapr\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout: _ssl.c:1063: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\groq\_base_client.py", line 1007, in request
+    response = self._client.send(
+        request,
+        stream=stream or self._should_stream_response_body(request=request),
+        **kwargs,
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\arapr\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout: _ssl.c:1063: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\core\ai_client.py", line 301, in optimize_resume_content
+    response = client.chat.completions.create(
+        messages=[
+    ...<5 lines>...
+        temperature=0.3,
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\groq\resources\chat\completions.py", line 461, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/openai/v1/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<45 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\groq\_base_client.py", line 1284, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\groq\_base_client.py", line 1025, in request
+    raise APITimeoutError(request=request) from err
+groq.APITimeoutError: Request timed out.
+[2026-06-07 22:38:38] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 22:38:38] INFO [database.db_manager:151] - Saved version 2 (AI Optimized Content) for resume ID: 11
+[2026-06-07 22:38:38] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:39:59] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:40:04] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:40:15] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:40:22] INFO [database.db_manager:97] - Saved resume Aditya resume.pdf with ID: 12
+[2026-06-07 22:40:22] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Aditya resume.docx
+[2026-06-07 22:40:38] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:40:52] ERROR [core.pdf_processor:341] - Error replacing text in PDF: need font file or buffer
+Traceback (most recent call last):
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\core\pdf_processor.py", line 317, in replace_text_in_pdf
+    fitted_size = find_best_font_size(
+        width=page_width,
+    ...<6 lines>...
+        align=align
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\core\pdf_processor.py", line 79, in find_best_font_size
+    res = dummy_page.insert_textbox(
+        rect,
+    ...<3 lines>...
+        align=align
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 12681, in insert_textbox
+    rc = img.insert_textbox(
+        rect,
+    ...<18 lines>...
+        oc=oc,
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 15494, in insert_textbox
+    xref = self.page.insert_font(
+        fontname=fname, fontfile=fontfile, encoding=encoding, set_simple=set_simple
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 12291, in insert_font
+    val = self._insertFont(fontname, bfname, fontfile_str, fontbuffer, set_simple, idx,
+                           wmode, serif, encoding, CJK_number)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 10181, in _insertFont
+    value = JM_insert_font(pdf, bfname, fontfile,fontbuffer, set_simple, idx, wmode, serif, encoding, ordering)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 20415, in JM_insert_font
+    RAISEPY(MSG_FILE_OR_BUFFER, PyExc_ValueError)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 22033, in RAISEPY
+    raise Exception( msg)
+Exception: need font file or buffer
+[2026-06-07 22:40:52] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Aditya resume.docx
+[2026-06-07 22:40:52] INFO [database.db_manager:151] - Saved version 1 (Auto-Optimized) for resume ID: 12
+[2026-06-07 22:40:57] INFO [database.db_manager:124] - Saved ATS analysis ID: 7 for resume ID: 12
+[2026-06-07 22:40:57] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:41:18] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:41:46] INFO [database.db_manager:124] - Saved ATS analysis ID: 8 for resume ID: 12
+[2026-06-07 22:42:00] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:42:15] ERROR [core.pdf_processor:341] - Error replacing text in PDF: need font file or buffer
+Traceback (most recent call last):
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\core\pdf_processor.py", line 317, in replace_text_in_pdf
+    fitted_size = find_best_font_size(
+        width=page_width,
+    ...<6 lines>...
+        align=align
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\core\pdf_processor.py", line 79, in find_best_font_size
+    res = dummy_page.insert_textbox(
+        rect,
+    ...<3 lines>...
+        align=align
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 12681, in insert_textbox
+    rc = img.insert_textbox(
+        rect,
+    ...<18 lines>...
+        oc=oc,
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 15494, in insert_textbox
+    xref = self.page.insert_font(
+        fontname=fname, fontfile=fontfile, encoding=encoding, set_simple=set_simple
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 12291, in insert_font
+    val = self._insertFont(fontname, bfname, fontfile_str, fontbuffer, set_simple, idx,
+                           wmode, serif, encoding, CJK_number)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 10181, in _insertFont
+    value = JM_insert_font(pdf, bfname, fontfile,fontbuffer, set_simple, idx, wmode, serif, encoding, ordering)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 20415, in JM_insert_font
+    RAISEPY(MSG_FILE_OR_BUFFER, PyExc_ValueError)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 22033, in RAISEPY
+    raise Exception( msg)
+Exception: need font file or buffer
+[2026-06-07 22:42:15] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Aditya resume.docx
+[2026-06-07 22:42:16] INFO [database.db_manager:151] - Saved version 2 (AI Optimized Content) for resume ID: 12
+[2026-06-07 22:42:16] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:42:28] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 22:42:43] ERROR [core.pdf_processor:341] - Error replacing text in PDF: need font file or buffer
+Traceback (most recent call last):
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\core\pdf_processor.py", line 317, in replace_text_in_pdf
+    fitted_size = find_best_font_size(
+        width=page_width,
+    ...<6 lines>...
+        align=align
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\core\pdf_processor.py", line 79, in find_best_font_size
+    res = dummy_page.insert_textbox(
+        rect,
+    ...<3 lines>...
+        align=align
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 12681, in insert_textbox
+    rc = img.insert_textbox(
+        rect,
+    ...<18 lines>...
+        oc=oc,
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 15494, in insert_textbox
+    xref = self.page.insert_font(
+        fontname=fname, fontfile=fontfile, encoding=encoding, set_simple=set_simple
+    )
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 12291, in insert_font
+    val = self._insertFont(fontname, bfname, fontfile_str, fontbuffer, set_simple, idx,
+                           wmode, serif, encoding, CJK_number)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 10181, in _insertFont
+    value = JM_insert_font(pdf, bfname, fontfile,fontbuffer, set_simple, idx, wmode, serif, encoding, ordering)
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 20415, in JM_insert_font
+    RAISEPY(MSG_FILE_OR_BUFFER, PyExc_ValueError)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arapr\.gemini\antigravity\scratch\ai_ats_resume_optimizer\venv\Lib\site-packages\pymupdf\__init__.py", line 22033, in RAISEPY
+    raise Exception( msg)
+Exception: need font file or buffer
+[2026-06-07 22:42:43] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Aditya resume.docx
+[2026-06-07 22:42:43] INFO [database.db_manager:151] - Saved version 3 (AI Optimized Content) for resume ID: 12
+[2026-06-07 22:42:43] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:10:25] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:10:41] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:10:51] INFO [database.db_manager:97] - Saved resume Resume_Abhinav (1).pdf with ID: 13
+[2026-06-07 23:10:51] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 23:11:06] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:11:22] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 23:11:22] INFO [database.db_manager:151] - Saved version 1 (Auto-Optimized) for resume ID: 13
+[2026-06-07 23:11:29] INFO [database.db_manager:124] - Saved ATS analysis ID: 9 for resume ID: 13
+[2026-06-07 23:11:29] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:12:04] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:12:10] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:13:03] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:13:11] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:30:48] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:30:56] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:30:59] INFO [database.db_manager:97] - Saved resume Resume_Abhinav (1).pdf with ID: 14
+[2026-06-07 23:31:00] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 23:31:14] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:31:20] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav (1).docx
+[2026-06-07 23:31:21] INFO [database.db_manager:151] - Saved version 1 (Auto-Optimized) for resume ID: 14
+[2026-06-07 23:31:22] INFO [database.db_manager:124] - Saved ATS analysis ID: 10 for resume ID: 14
+[2026-06-07 23:31:23] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:31:38] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:31:39] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:31:41] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:31:42] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-07 23:53:10] INFO [__main__:7] - Running dynamic PDF generation test...
+[2026-06-07 23:53:10] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: test_dynamic.pdf (2443 bytes)
+[2026-06-07 23:53:10] INFO [__main__:21] - Successfully generated test_dynamic.pdf for visual verification.
+[2026-06-07 23:53:21] INFO [__main__:52] - Starting local PDF flow testing...
+[2026-06-07 23:53:21] INFO [__main__:59] - Extracted 9 layout blocks.
+[2026-06-07 23:53:21] INFO [__main__:61] - Block #0: 'Johnathan Doe...' font: Helvetica-Bold size: 20.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 23:53:21] INFO [__main__:61] - Block #1: 'Software Architect | Seattle, WA | john.doe@email....' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 23:53:21] INFO [__main__:61] - Block #2: 'PROFILE SUMMARY...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 23:53:21] INFO [__main__:61] - Block #3: 'Highly analytical software engineering leader with...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 23:53:21] INFO [__main__:61] - Block #4: 'WORK EXPERIENCE...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 23:53:21] INFO [__main__:61] - Block #5: 'Lead Architect - Cloud Systems Co. (2021 - Present...' font: Helvetica-Bold size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 23:53:21] INFO [__main__:61] - Block #6: '- Spearheaded design of highly scalable database m...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 23:53:21] INFO [__main__:61] - Block #7: 'EDUCATION...' font: Helvetica-Bold size: 12.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 23:53:21] INFO [__main__:61] - Block #8: 'B.S. Computer Science - University of Washington (...' font: Helvetica size: 10.0 color: (0.0, 0.0, 0.0)
+[2026-06-07 23:53:21] INFO [__main__:78] - Simulating replacement on block #3...
+[2026-06-07 23:53:21] INFO [__main__:83] - Updated PDF parsed successfully.
+[2026-06-07 23:53:21] INFO [__main__:87] - PDF replacement validation: SUCCESS.
+[2026-06-07 23:53:21] INFO [__main__:94] - Saved sample_resume.pdf and updated_resume.pdf for review.
+[2026-06-07 23:53:21] INFO [__main__:105] - Generating sample DOCX document...
+[2026-06-07 23:53:21] INFO [core.docx_generator:109] - DOCX document generated: test.docx
+[2026-06-07 23:53:21] INFO [__main__:111] - Saved updated_resume.docx for review.
+[2026-06-07 23:53:21] INFO [__main__:113] - All local verification tests completed successfully!
+[2026-06-07 23:53:44] INFO [__main__:8] - Running Gemini client validation tests...
+[2026-06-07 23:53:44] INFO [__main__:11] - Testing fallbacks (offline mode)...
+[2026-06-07 23:53:44] WARNING [core.ai_client:19] - Gemini API key not found in environment or arguments.
+[2026-06-07 23:53:44] INFO [__main__:17] - Optimization fallback validation: SUCCESS.
+[2026-06-07 23:53:44] INFO [__main__:20] - Testing section detection fallback...
+[2026-06-07 23:53:44] WARNING [core.ai_client:19] - Gemini API key not found in environment or arguments.
+[2026-06-07 23:53:44] INFO [core.ai_client:192] - Gemini client not available, running fallback section detection.
+[2026-06-07 23:53:44] INFO [__main__:24] - Section detection fallback validation: SUCCESS.
+[2026-06-07 23:53:44] INFO [__main__:27] - Testing ATS compatibility fallback...
+[2026-06-07 23:53:44] WARNING [core.ai_client:19] - Gemini API key not found in environment or arguments.
+[2026-06-07 23:53:44] INFO [core.ai_client:331] - Gemini model not available, running local keyword scan fallback.
+[2026-06-07 23:53:44] INFO [__main__:30] - ATS evaluation fallback validation: SUCCESS.
+[2026-06-07 23:53:44] INFO [__main__:44] - No GEMINI_API_KEY found in env; skipping live API test.
+[2026-06-07 23:53:44] INFO [__main__:46] - All Gemini tests completed successfully!
+[2026-06-07 23:58:45] INFO [__main__:7] - Running dynamic PDF generation test...
+[2026-06-07 23:58:45] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: test_dynamic.pdf (2443 bytes)
+[2026-06-07 23:58:45] INFO [__main__:21] - Successfully generated test_dynamic.pdf for visual verification.
+[2026-06-08 00:03:21] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:03:45] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:03:54] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:03:57] INFO [database.db_manager:97] - Saved resume Resume_Abhinav.pdf with ID: 15
+[2026-06-08 00:03:58] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav.docx
+[2026-06-08 00:03:58] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: Dynamic_Resume_Abhinav.pdf (6060 bytes)
+[2026-06-08 00:04:19] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:04:24] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav.docx
+[2026-06-08 00:04:24] INFO [database.db_manager:151] - Saved version 1 (Auto-Optimized) for resume ID: 15
+[2026-06-08 00:04:26] INFO [database.db_manager:124] - Saved ATS analysis ID: 11 for resume ID: 15
+[2026-06-08 00:04:26] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:04:26] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: Dynamic_Resume_Abhinav.pdf (6479 bytes)
+[2026-06-08 00:04:32] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:04:33] INFO [database.db_manager:124] - Saved ATS analysis ID: 12 for resume ID: 15
+[2026-06-08 00:04:34] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: Dynamic_Resume_Abhinav.pdf (6479 bytes)
+[2026-06-08 00:04:56] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:04:56] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: Dynamic_Resume_Abhinav.pdf (6479 bytes)
+[2026-06-08 00:05:01] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:05:01] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: Dynamic_Resume_Abhinav.pdf (6479 bytes)
+[2026-06-08 00:05:05] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:05:05] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: Dynamic_Resume_Abhinav.pdf (6479 bytes)
+[2026-06-08 00:05:09] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:05:09] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: Dynamic_Resume_Abhinav.pdf (6479 bytes)
+[2026-06-08 00:05:10] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav.docx
+[2026-06-08 00:05:10] INFO [database.db_manager:151] - Saved version 2 (Manual Snapshot) for resume ID: 15
+[2026-06-08 00:05:10] INFO [database.db_manager:109] - Updated current PDF for resume ID: 15
+[2026-06-08 00:05:10] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:05:10] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: Dynamic_Resume_Abhinav.pdf (6479 bytes)
+[2026-06-08 00:05:18] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:05:22] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Resume_Abhinav.docx
+[2026-06-08 00:05:25] INFO [database.db_manager:124] - Saved ATS analysis ID: 13 for resume ID: 15
+[2026-06-08 00:05:25] INFO [database.db_manager:151] - Saved version 3 (AI Optimized Content) for resume ID: 15
+[2026-06-08 00:05:25] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:05:25] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: Dynamic_Resume_Abhinav.pdf (7225 bytes)
+[2026-06-08 00:06:14] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:06:29] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:06:31] INFO [database.db_manager:97] - Saved resume ATS_Optimized_Resume (13).pdf with ID: 16
+[2026-06-08 00:06:32] INFO [core.docx_generator:109] - DOCX document generated: Optimized_ATS_Optimized_Resume (13).docx
+[2026-06-08 00:06:32] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: Dynamic_ATS_Optimized_Resume (13).pdf (2758 bytes)
+[2026-06-08 00:06:49] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:06:49] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:06:52] INFO [core.docx_generator:109] - DOCX document generated: Optimized_ATS_Optimized_Resume (13).docx
+[2026-06-08 00:06:52] INFO [database.db_manager:151] - Saved version 1 (Auto-Optimized) for resume ID: 16
+[2026-06-08 00:06:54] INFO [database.db_manager:124] - Saved ATS analysis ID: 14 for resume ID: 16
+[2026-06-08 00:06:54] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:06:54] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: Dynamic_ATS_Optimized_Resume (13).pdf (3235 bytes)
+[2026-06-08 00:07:17] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:07:17] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: Dynamic_ATS_Optimized_Resume (13).pdf (3235 bytes)
+[2026-06-08 00:07:27] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:07:29] INFO [database.db_manager:97] - Saved resume Corporate_Classic_Template.pdf with ID: 17
+[2026-06-08 00:07:30] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Corporate_Classic_Template.docx
+[2026-06-08 00:07:30] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:07:31] INFO [database.db_manager:97] - Saved resume ATS_Optimized_Resume (13).pdf with ID: 18
+[2026-06-08 00:07:32] INFO [core.docx_generator:109] - DOCX document generated: Optimized_ATS_Optimized_Resume (13).docx
+[2026-06-08 00:07:35] INFO [core.docx_generator:109] - DOCX document generated: Optimized_ATS_Optimized_Resume (13).docx
+[2026-06-08 00:07:35] INFO [database.db_manager:151] - Saved version 1 (Auto-Optimized) for resume ID: 18
+[2026-06-08 00:07:37] INFO [database.db_manager:124] - Saved ATS analysis ID: 15 for resume ID: 18
+[2026-06-08 00:07:37] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:07:37] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: Dynamic_ATS_Optimized_Resume (13).pdf (3869 bytes)
+[2026-06-08 00:07:52] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:07:54] INFO [database.db_manager:97] - Saved resume Corporate_Classic_Template.pdf with ID: 19
+[2026-06-08 00:07:54] INFO [core.docx_generator:109] - DOCX document generated: Optimized_Corporate_Classic_Template.docx
+[2026-06-08 00:07:54] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:07:56] INFO [database.db_manager:97] - Saved resume ATS_Optimized_Resume (13).pdf with ID: 20
+[2026-06-08 00:07:56] INFO [core.docx_generator:109] - DOCX document generated: Optimized_ATS_Optimized_Resume (13).docx
+[2026-06-08 00:07:59] INFO [core.docx_generator:109] - DOCX document generated: Optimized_ATS_Optimized_Resume (13).docx
+[2026-06-08 00:07:59] INFO [database.db_manager:151] - Saved version 1 (Auto-Optimized) for resume ID: 20
+[2026-06-08 00:08:01] INFO [database.db_manager:124] - Saved ATS analysis ID: 16 for resume ID: 20
+[2026-06-08 00:08:01] INFO [database.db_manager:83] - Database initialized successfully.
+[2026-06-08 00:08:01] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: Dynamic_ATS_Optimized_Resume (13).pdf (3777 bytes)
+[2026-06-08 00:18:41] INFO [__main__:7] - Running dynamic PDF generation test...
+[2026-06-08 00:18:41] INFO [core.dynamic_pdf_generator:211] - Dynamic flowable PDF generated: test_dynamic.pdf (2443 bytes)
+[2026-06-08 00:18:41] INFO [__main__:21] - Successfully generated test_dynamic.pdf for visual verification.
+[2026-06-08 00:19:11] INFO [__main__:8] - Starting structured resume builders testing...
+[2026-06-08 00:19:11] INFO [__main__:49] - Testing structured PDF generation...
+[2026-06-08 00:19:11] INFO [__main__:54] - Structured PDF generation: SUCCESS.
+[2026-06-08 00:19:11] INFO [__main__:57] - Testing structured DOCX generation...
+[2026-06-08 00:19:11] INFO [core.resume_docx_builder:273] - DOCX resume document generated: test_resume_built.docx
+[2026-06-08 00:19:11] INFO [__main__:62] - Structured DOCX generation: SUCCESS.
+[2026-06-08 00:19:11] INFO [__main__:64] - All builder tests completed successfully!
+[2026-06-08 00:20:31] INFO [__main__:9] - Starting structured Groq AI testing...
+[2026-06-08 00:20:31] INFO [__main__:21] - Testing structured AI parsing...
+[2026-06-08 00:20:33] INFO [__main__:23] - Parsed output: {
+  "name": "John Doe",
+  "title": "Software Engineer",
+  "email": "john@email.com",
+  "phone": null,
+  "linkedin": null,
+  "github": null,
+  "location": null,
+  "summary": null,
+  "experience": [
+    {
+      "company": "Tech Corp",
+      "title": "Senior Developer",
+      "location": null,
+      "start_date": "2020",
+      "end_date": "Present",
+      "description": "- Programmed backend in Python"
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Washington",
+      "degree": "B.S. CS",
+      "location": null,
+      "start_date": null,
+      "end_date": null,
+      "details": null
+    }
+  ],
+  "skills": "Python, SQL",
+  "projects": []
+}
+[2026-06-08 00:20:33] INFO [__main__:27] - Structured AI parsing: SUCCESS.
+[2026-06-08 00:20:33] INFO [__main__:30] - Testing structured AI optimization...
+[2026-06-08 00:20:34] INFO [__main__:33] - Optimized output: {
+  "name": "John Doe",
+  "title": "Software Engineer",
+  "email": "john@email.com",
+  "phone": null,
+  "linkedin": null,
+  "github": null,
+  "location": null,
+  "summary": "Highly motivated DevOps Python Engineer with expertise in Kubernetes, metrics-driven development, and scalable system design.",
+  "experience": [
+    {
+      "company": "Tech Corp",
+      "title": "Senior Developer",
+      "location": null,
+      "start_date": "2020",
+      "end_date": "Present",
+      "description": "- Spearheaded the development of scalable backend systems in Python, leveraging Kubernetes for efficient deployment and orchestration, resulting in a 30% increase in system uptime and a 25% reduction in latency."
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Washington",
+      "degree": "B.S. CS",
+      "location": null,
+      "start_date": null,
+      "end_date": null,
+      "details": null
+    }
+  ],
+  "skills": "Python, SQL, Kubernetes, DevOps, metrics, scaling, system design",
+  "projects": []
+}
+[2026-06-08 00:20:34] INFO [__main__:36] - Structured AI optimization: SUCCESS.
+[2026-06-08 00:20:34] INFO [__main__:38] - All structured AI tests completed successfully!
+[2026-06-08 00:23:38] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Alexander Mercer.docx
+[2026-06-08 00:24:03] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Alexander Mercer.docx
+[2026-06-08 00:24:15] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Alexander Mercer.docx
+[2026-06-08 00:24:43] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Alexander Mercer.docx
+[2026-06-08 00:24:49] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Alexander Mercer.docx
+[2026-06-08 00:24:59] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Alexander Mercer.docx
+[2026-06-08 00:25:08] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Alexander Mercer.docx
+[2026-06-08 00:25:17] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Alexander Mercer.docx
+[2026-06-08 00:25:39] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Alexander Mercer.docx
+[2026-06-08 00:26:10] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Alexander Mercer.docx
+[2026-06-08 00:26:24] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Abhinav Anish.docx
+[2026-06-08 00:26:41] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Abhinav Anish.docx
+[2026-06-08 00:28:30] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Abhinav Anish.docx
+[2026-06-08 00:29:29] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Abhinav Anish.docx
+[2026-06-08 00:29:55] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Abhinav Anish.docx
+[2026-06-08 00:30:03] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Abhinav Anish.docx
+[2026-06-08 00:30:15] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Abhinav Anish.docx
+[2026-06-08 00:30:38] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Abhinav Anish.docx
+[2026-06-08 00:30:50] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Abhinav Anish.docx
+[2026-06-08 00:34:57] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Abhinav Anish.docx
+[2026-06-08 00:35:00] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Abhinav Anish.docx
+[2026-06-08 00:35:05] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Abhinav Anish.docx
+[2026-06-08 00:35:16] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Abhinav Anish.docx
+[2026-06-08 00:35:20] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Abhinav Anish.docx
+[2026-06-08 00:35:23] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Abhinav Anish.docx
+[2026-06-08 00:37:18] INFO [core.resume_docx_builder:273] - DOCX resume document generated: Alexander Mercer.docx
+[2026-06-08 10:13:39] INFO [__main__:8] - Starting structured resume builders testing...
+[2026-06-08 10:13:39] INFO [__main__:49] - Testing structured PDF generation...
+[2026-06-08 10:13:39] INFO [__main__:54] - Structured PDF generation: SUCCESS.
+[2026-06-08 10:13:39] INFO [__main__:57] - Testing structured DOCX generation...
+[2026-06-08 10:13:39] INFO [core.resume_docx_builder:273] - DOCX resume document generated: test_resume_built.docx
+[2026-06-08 10:13:39] INFO [__main__:62] - Structured DOCX generation: SUCCESS.
+[2026-06-08 10:13:39] INFO [__main__:64] - All builder tests completed successfully!
